@@ -67,6 +67,12 @@ $ git switch -c rescue/<short-purpose>
 
 The second command is the safety step. Without it, later switching can leave the commit reachable only through reflog.
 
+## Further reading
+
+- [Git from the Inside Out](10-references.md#1-mental-model-and-internals)
+- [Think Like (a) Git](10-references.md#1-mental-model-and-internals)
+- [Git from the Bottom Up](10-references.md#1-mental-model-and-internals)
+
 ## Sources
 
 - [gitrevisions](https://git-scm.com/docs/gitrevisions), access date 2026-11-02

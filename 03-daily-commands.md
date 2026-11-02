@@ -120,6 +120,12 @@ Use interactive rebase to reorder, edit, squash, fixup, or drop commits before t
 
 Do not rebase when the branch is already a shared integration history, when signed or audited commit identity must remain unchanged, or when a merge commit is part of the meaning you must preserve. Use merge or revert instead when preserving public ancestry is the priority.
 
+## Further reading
+
+- [GitHub Git Cheat Sheet](10-references.md#2-cheat-sheets)
+- [Atlassian Git Cheat Sheet](10-references.md#2-cheat-sheets)
+- [Thoughtbot: Git Interactive Rebase, Squash, Amend](10-references.md#6-history-rewriting-rebase-interactive-rebase-fixup-force-with-lease)
+
 ## Sources
 
 - [git-add](https://git-scm.com/docs/git-add), access date 2026-11-02

@@ -121,6 +121,12 @@ The scratch run proved the first two steps with `stash@{0}: On main: demo stash`
 
 Recovery is not a substitute for a backup. Reflog is local, expires, and is not transferred by push.
 
+## Further reading
+
+- [git-flight-rules](10-references.md#3-recovery-and-mistakes-i-broke-my-repo)
+- [Oh Shit, Git!?! / Dangit, Git!](10-references.md#3-recovery-and-mistakes-i-broke-my-repo)
+- [How to undo (almost) anything with Git](10-references.md#3-recovery-and-mistakes-i-broke-my-repo)
+
 ## Sources
 
 - [git-reflog](https://git-scm.com/docs/git-reflog), access date 2026-11-02

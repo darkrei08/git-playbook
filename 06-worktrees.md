@@ -74,6 +74,11 @@ Run `git worktree prune --dry-run` first when the registration might still be ne
 
 **WARNING:** `git worktree remove -f` and deleting a worktree directory can destroy uncommitted tracked work. Use `list`, inspect status, and preserve work before cleanup.
 
+## Further reading
+
+- [GitWorktree.org](10-references.md#5-worktrees-and-parallel-work)
+- [Git Worktree Reference (Official)](10-references.md#5-worktrees-and-parallel-work)
+
 ## Sources
 
 - [git-worktree](https://git-scm.com/docs/git-worktree), access date 2026-11-02

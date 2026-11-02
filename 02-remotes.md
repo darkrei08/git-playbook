@@ -19,8 +19,8 @@ A personal repository that you own should not be a GitHub fork just to support t
 
 ```bash
 git remote -v
-git remote add upstream https://github.com/OWNER/PROJECT.git
-git remote set-url upstream https://github.com/OWNER/PROJECT.git
+git remote add upstream OWNER/PROJECT.git
+git remote set-url upstream OWNER/PROJECT.git
 git remote rename upstream canonical
 ```
 
@@ -117,6 +117,12 @@ c8b5735..257b2c8  rewrite -> rewrite
 ```
 
 Never replace the lease with `--force` merely to make a rejection disappear. Fetch, inspect, rebase or coordinate, then retry with the lease.
+
+## Further reading
+
+- [first-contributions](10-references.md#4-remotes-forks-triangular-workflows-pull-requests)
+- [How the GitHub CLI can now enable triangular workflows](10-references.md#4-remotes-forks-triangular-workflows-pull-requests)
+- [Git Documentation (git-scm.com/docs)](10-references.md#11-first-party-sources)
 
 ## Sources
 

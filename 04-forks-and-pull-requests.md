@@ -10,7 +10,7 @@ The contribution loop has three identities: the canonical project (`upstream`), 
 gh repo fork OWNER/PROJECT --clone=false
 gh repo clone YOUR-OWNER/PROJECT
 cd PROJECT
-git remote add upstream https://github.com/OWNER/PROJECT.git
+git remote add upstream OWNER/PROJECT.git
 git remote -v
 git switch -c fix/short-symptom
 ```
@@ -109,6 +109,12 @@ The repository's branch protection, required checks, review rules, and permissio
 
 If you own the project and are the maintainer, create an ordinary repository. A GitHub fork is a contribution relationship, not a replacement for normal ownership. Use a second remote or a second clone when you need a reference copy; do not create a fork of your own project just to get an `origin` name.
 
+## Further reading
+
+- [GitHub CLI Manual](10-references.md#9-github-specific-workflow-touchpoints)
+- [GitHub Docs: About Pull Requests](10-references.md#9-github-specific-workflow-touchpoints)
+- [GitHub Docs: Workflow Events (Git triggers)](10-references.md#9-github-specific-workflow-touchpoints)
+
 ## Sources
 
 - [GitHub CLI: gh repo fork](https://cli.github.com/manual/gh_repo_fork), access date 2026-11-02
@@ -116,4 +122,4 @@ If you own the project and are the maintainer, create an ordinary repository. A 
 - [GitHub CLI: gh pr create](https://cli.github.com/manual/gh_pr_create), access date 2026-11-02
 - [GitHub CLI: gh pr checks](https://cli.github.com/manual/gh_pr_checks), access date 2026-11-02
 - [GitHub CLI: gh pr merge](https://cli.github.com/manual/gh_pr_merge), access date 2026-11-02
-- [GitHub Docs: About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/about-pull-requests), access date 2026-11-02
+- [GitHub Docs: About pull requests](https://docs.github.com/en/pull-requests/reference/pull-requests), access date 2026-11-02

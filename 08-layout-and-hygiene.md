@@ -65,6 +65,12 @@ A real working tree was reviewed after drift accumulated. Personal names and pat
 
 The cleanup plan was deliberately boring: inventory remotes, choose the canonical clone for each upstream, move parallel tasks into named worktrees, run `git worktree prune` only after confirming the directories were gone, and move the nested clone beside the parent. The lesson is not that 101 is a magic limit; it is that duplication hides ownership and makes recovery less reliable.
 
+## Further reading
+
+- [Git from the Bottom Up](10-references.md#1-mental-model-and-internals)
+- [GitWorktree.org](10-references.md#5-worktrees-and-parallel-work)
+- [Git Worktree Reference (Official)](10-references.md#5-worktrees-and-parallel-work)
+
 ## Sources
 
 - [ghq](https://github.com/x-motemen/ghq), access date 2026-11-02

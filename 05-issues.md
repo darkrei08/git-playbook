@@ -77,6 +77,12 @@ git status -sb
 
 A green check list proves only the checks that ran. It does not prove a missing platform, a manual UI path, or a command that was never executed.
 
+## Further reading
+
+- [GitHub CLI Manual](10-references.md#9-github-specific-workflow-touchpoints)
+- [GitHub Docs: About Pull Requests](10-references.md#9-github-specific-workflow-touchpoints)
+- [GitHub Docs: Workflow Events (Git triggers)](10-references.md#9-github-specific-workflow-touchpoints)
+
 ## Sources
 
 - [GitHub CLI: gh issue create](https://cli.github.com/manual/gh_issue_create), access date 2026-11-02

@@ -1,6 +1,6 @@
 # Git Playbook
 
-This is a field guide for humans who need to make safe Git decisions, not memorize isolated commands. Read it in order once; return to the command chapter and cheat sheet during daily work.
+This is a field guide and reference directory for humans who need to make safe Git decisions, not memorize isolated commands. Read it in order once; return to the command chapter, cheat sheet, and references during daily work.
 
 All command examples were exercised in a fresh temporary repository with Git 2.47.3 and a local bare remote. Paths and identities in output are sanitized. Convention claims are linked to primary documentation; access date: 2026-11-02.
 
@@ -15,6 +15,7 @@ All command examples were exercised in a fresh temporary repository with Git 2.4
 7. Recover with reflog before attempting salvage.
 8. Put repositories and worktrees in a layout that prevents duplication.
 9. Keep the one-page tables nearby.
+10. Use the curated references for deeper study and authoritative follow-up.
 
 ## Chapters
 
@@ -29,6 +30,7 @@ All command examples were exercised in a fresh temporary repository with Git 2.4
 | [07: Recovery](07-recovery.md) | How do I get back after a bad reset, deleted branch, detached commit, or interrupted rebase? |
 | [08: Layout and hygiene](08-layout-and-hygiene.md) | How should repositories, forks, reference clones, and worktrees live on disk? |
 | [09: Cheatsheet](09-cheatsheet.md) | What is the shortest safe reference for common intent? |
+| [10: References](10-references.md) | Where should I go next for deeper explanations, practice, recovery, and first-party documentation? |
 
 ## Verification boundary
 
@@ -40,4 +42,4 @@ The guide proves Git command groups against a scratch repository and a second lo
 - [GitHub CLI manual](https://cli.github.com/manual/)
 - [GitHub Docs: About permissions and visibility of forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks)
 - [GitHub Docs: Syncing a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
-- [GitHub Docs: About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/about-pull-requests)
+- [GitHub Docs: About pull requests](https://docs.github.com/en/pull-requests/reference/pull-requests)

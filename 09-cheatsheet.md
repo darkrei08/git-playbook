@@ -47,3 +47,9 @@
 | Open PR | `gh pr create --fill` | Opens a pull request from the pushed branch. |
 | Check PR | `gh pr checks 456` | Reads required and reported checks. |
 | Merge PR | `gh pr merge --squash` | Integrates the PR as one commit, subject to policy. |
+
+## Further reading
+
+- [GitHub Git Cheat Sheet](10-references.md#2-cheat-sheets)
+- [Atlassian Git Cheat Sheet](10-references.md#2-cheat-sheets)
+- [Tower Git Cheat Sheet](10-references.md#2-cheat-sheets)
