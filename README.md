@@ -32,7 +32,7 @@ All command examples were exercised in a fresh temporary repository with Git 2.4
 
 ## Verification boundary
 
-The guide proves Git command groups against a scratch repository and a second local bare remote. GitHub CLI syntax was checked with the installed CLI's help output. GitHub-hosted review, merge, and issue state depend on permissions, branch protection, repository settings, and network state; those behaviours are not claimed as locally reproduced.
+The guide proves Git command groups against a scratch repository and a second local bare remote. GitHub CLI syntax was checked with the installed CLI's help output. **UNVERIFIED locally:** GitHub-hosted review, merge, and issue state depend on permissions, branch protection, repository settings, and network state; those behaviours are not claimed as locally reproduced.
 
 ## Sources
 
